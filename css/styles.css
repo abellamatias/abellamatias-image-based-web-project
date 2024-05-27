@@ -8,6 +8,7 @@
 }
 
 body{
+    background-color: rgb(206, 214, 240);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -15,10 +16,17 @@ body{
     justify-content: center;
 }
 
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold ;
+}
+
 .contenedor{
     background-color: white;
-    width: 450px;
-    height: 535px;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
     border: 0 solid;
     border-radius: 10px;
@@ -31,8 +39,69 @@ body{
 .titulo{
     text-align: center;
     font-family: "Archivo Black", sans-serif;
-    font-size: 50px;
+    font-size: 55px;
+    margin-top: -20px;
+    
+}
+
+.pajaro{
+    filter: invert(32%) sepia(66%) saturate(3591%) hue-rotate(212deg) brightness(95%) contrast(101%) opacity(0.9);
+    height: 50px;
+    width: 50px;
+    margin-right: -15px;
+}
+.pajaro-container{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.subtitulo{
+    font-size: 35px;
+}
+
+.descripcion{
+    color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 25px;
+}
+
+form{
+    height: 200px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 
+.campo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.input{
+width: 100%;
+height: 40px;
+border: 2px solid rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+padding: 0 10px;
+font-size: 20px;
+color: rgba(0, 0, 0, 0.8);
+}
+.label{
+    width: 100%;
+}
+.linea{
+    height: 1px;
+    content: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+.submit{
+    background-color: rgb(51, 118, 245);
+    color: white;
+    font-size: 12px;
+}
