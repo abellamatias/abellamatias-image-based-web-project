@@ -63,11 +63,10 @@ a{
 
 .descripcion{
     color: rgba(0, 0, 0, 0.7);
-    padding-bottom: 25px;
 }
 
 form{
-    height: 200px;
+    height: 250px;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -88,20 +87,31 @@ width: 100%;
 height: 40px;
 border: 2px solid rgba(0, 0, 0, 0.1);
 border-radius: 8px;
-padding: 0 10px;
 font-size: 20px;
 color: rgba(0, 0, 0, 0.8);
+transition: ease 0.3s;
 }
+
+input:focus{
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+}
+
 .label{
     width: 100%;
 }
-.linea{
-    height: 1px;
-    content: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 1);
-}
+
 .submit{
     background-color: rgb(51, 118, 245);
     color: white;
     font-size: 12px;
+}
+
+.division{
+    
+    width: 90%;
+    opacity: 20%;
+    /* content:none; */
+    border-bottom: 1px, solid rgba(0, 0, 0, 0.5);
+    /* background-color: white; */
 }
