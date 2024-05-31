@@ -4,8 +4,6 @@ Características:
 
   -Diseño simple y limpio
   
-  -Diseño responsivo
-  
   -Fácil de personalizar
   
 Instalación:
